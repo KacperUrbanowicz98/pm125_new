@@ -1,0 +1,78 @@
+{
+  "console_path": "C:\\Users\\kacper.urbanowicz\\Downloads\\USBPDAPI_1.0.1016 (1)\\USBPDConsole Release\\USBPDConsole.exe",
+  "device_serial": null,
+  "profiles": [
+    {
+      "nominal": 5.0,
+      "min_voltage": 4.75,
+      "max_voltage": 5.5,
+      "test_duration_no_load": 2.5,
+      "test_duration_with_load": 2.5,
+      "load_current_ma": 3000,
+      "name": "Profile 5V",
+      "index": 1
+    },
+    {
+      "nominal": 9.0,
+      "min_voltage": 8.55,
+      "max_voltage": 9.45,
+      "test_duration_no_load": 2.5,
+      "test_duration_with_load": 2.5,
+      "load_current_ma": 3000,
+      "name": "Profile 9V",
+      "index": 2
+    },
+    {
+      "nominal": 12.0,
+      "min_voltage": 11.4,
+      "max_voltage": 12.6,
+      "test_duration_no_load": 2.5,
+      "test_duration_with_load": 2.5,
+      "load_current_ma": 3000,
+      "name": "Profile 12V",
+      "index": 3
+    },
+    {
+      "nominal": 15.0,
+      "min_voltage": 14.25,
+      "max_voltage": 15.75,
+      "test_duration_no_load": 2.5,
+      "test_duration_with_load": 2.5,
+      "load_current_ma": 2400,
+      "name": "Profile 15V",
+      "index": 4
+    }
+  ],
+  "measurement_interval": 0.05,
+  "max_csv_rows": 1000000,
+  "valid_hrids": [
+    "44963",
+    "12100667",
+    "81705",
+    "45216",
+    "45061",
+    "12100171",
+    "12100741",
+    "81560",
+    "81563",
+    "81564",
+    "45233",
+    "12101333",
+    "12101111",
+    "12100174",
+    "12100475",
+    "12101090",
+    "12100587",
+    "12101094",
+    "45016",
+    "TEST",
+    "12100524",
+    "12101639",
+    "12101644",
+    "45466",
+    "12100269",
+    "12101487",
+    "45518",
+    "12101673"
+  ]
+}

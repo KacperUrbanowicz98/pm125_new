@@ -1,8 +1,9 @@
-# hardware_interface.py - KOMPLETNA WERSJA Z INSTANT LOAD
+# hardware_interface.py - WERSJA Z UKRYTĄ KONSOLĄ
 import subprocess
 import os
 import re
 import time
+import sys
 from typing import Optional, List, Dict
 
 
@@ -29,7 +30,6 @@ class PM125Interface:
         self.connected = False
         self.current_profile = None
 
-        # Test połączenia
         if not self._test_connection():
             raise ConnectionError(
                 "Nie można połączyć z PM125.\n"
@@ -45,18 +45,32 @@ class PM125Interface:
 
     def _run_command(self, *args, timeout: int = 5) -> Optional[str]:
         """
-        Uruchom komendę USBPDConsole
+        Uruchom komendę USBPDConsole BEZ WIDOCZNEJ KONSOLI
         Zwraca output lub None jeśli błąd
         """
         try:
             cmd = [self.console_path, '-d', self.device_serial] + list(args)
 
-            result = subprocess.run(
-                cmd,
-                capture_output=True,
-                text=True,
-                timeout=timeout
-            )
+            if sys.platform == 'win32':
+                startupinfo = subprocess.STARTUPINFO()
+                startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+                startupinfo.wShowWindow = 0
+
+                result = subprocess.run(
+                    cmd,
+                    capture_output=True,
+                    text=True,
+                    timeout=timeout,
+                    startupinfo=startupinfo,
+                    creationflags=0x08000000
+                )
+            else:
+                result = subprocess.run(
+                    cmd,
+                    capture_output=True,
+                    text=True,
+                    timeout=timeout
+                )
 
             if result.returncode == 0:
                 return result.stdout.strip()
@@ -171,14 +185,11 @@ class PM125Interface:
 
         try:
             if instant:
-                # -q = quick load (instant jump bez slope)
                 output = self._run_command('-q', str(current_ma))
             else:
-                # -l = normal load (slow ramp)
                 output = self._run_command('-l', str(current_ma))
 
             if output is not None:
-                # Bardzo krótkie opóźnienie dla instant
                 time.sleep(0.05 if instant else 0.1)
                 return True
 
@@ -199,14 +210,12 @@ class PM125Interface:
             return None
 
         try:
-            # Parsuj napięcie (w mV)
             voltage_match = re.search(r'VOLTAGE[:\s]+(\d+)\s*mV', output)
             if not voltage_match:
                 print(f"Nie znaleziono napięcia w: {output}")
                 return None
             voltage_mv = int(voltage_match.group(1))
 
-            # Parsuj prąd (w mA)
             current_match = re.search(r'MEASURED CURRENT[:\s]+(\d+)\s*mA', output)
             if not current_match:
                 print(f"Nie znaleziono prądu w: {output}")

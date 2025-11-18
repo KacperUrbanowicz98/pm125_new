@@ -1,0 +1,74 @@
+2025-11-18 12:17:57,151 [INFO] === APLIKACJA URUCHOMIONA ===
+2025-11-18 12:17:57,152 [INFO] Konfiguracja załadowana
+2025-11-18 12:17:59,029 [INFO] Połączono z PM125
+2025-11-18 12:17:59,094 [DEBUG] STREAM b'IHDR' 16 13
+2025-11-18 12:17:59,095 [DEBUG] STREAM b'pHYs' 41 9
+2025-11-18 12:17:59,095 [DEBUG] STREAM b'tEXt' 62 25
+2025-11-18 12:17:59,095 [DEBUG] STREAM b'IDAT' 99 8192
+2025-11-18 12:17:59,107 [DEBUG] STREAM b'IHDR' 16 13
+2025-11-18 12:17:59,108 [DEBUG] STREAM b'pHYs' 41 9
+2025-11-18 12:17:59,108 [DEBUG] STREAM b'tEXt' 62 25
+2025-11-18 12:17:59,108 [DEBUG] STREAM b'IDAT' 99 8192
+2025-11-18 12:17:59,122 [DEBUG] STREAM b'IHDR' 16 13
+2025-11-18 12:17:59,122 [DEBUG] STREAM b'pHYs' 41 9
+2025-11-18 12:17:59,122 [DEBUG] STREAM b'tEXt' 62 25
+2025-11-18 12:17:59,122 [DEBUG] STREAM b'IDAT' 99 8192
+2025-11-18 12:18:00,307 [DEBUG] Importing AvifImagePlugin
+2025-11-18 12:18:00,310 [DEBUG] Importing BlpImagePlugin
+2025-11-18 12:18:00,312 [DEBUG] Importing BmpImagePlugin
+2025-11-18 12:18:00,312 [DEBUG] Importing BufrStubImagePlugin
+2025-11-18 12:18:00,313 [DEBUG] Importing CurImagePlugin
+2025-11-18 12:18:00,313 [DEBUG] Importing DcxImagePlugin
+2025-11-18 12:18:00,314 [DEBUG] Importing DdsImagePlugin
+2025-11-18 12:18:00,318 [DEBUG] Importing EpsImagePlugin
+2025-11-18 12:18:00,319 [DEBUG] Importing FitsImagePlugin
+2025-11-18 12:18:00,320 [DEBUG] Importing FliImagePlugin
+2025-11-18 12:18:00,321 [DEBUG] Importing FpxImagePlugin
+2025-11-18 12:18:00,322 [DEBUG] Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-11-18 12:18:00,323 [DEBUG] Importing FtexImagePlugin
+2025-11-18 12:18:00,323 [DEBUG] Importing GbrImagePlugin
+2025-11-18 12:18:00,324 [DEBUG] Importing GifImagePlugin
+2025-11-18 12:18:00,324 [DEBUG] Importing GribStubImagePlugin
+2025-11-18 12:18:00,325 [DEBUG] Importing Hdf5StubImagePlugin
+2025-11-18 12:18:00,325 [DEBUG] Importing IcnsImagePlugin
+2025-11-18 12:18:00,328 [DEBUG] Importing IcoImagePlugin
+2025-11-18 12:18:00,330 [DEBUG] Importing ImImagePlugin
+2025-11-18 12:18:00,331 [DEBUG] Importing ImtImagePlugin
+2025-11-18 12:18:00,332 [DEBUG] Importing IptcImagePlugin
+2025-11-18 12:18:00,332 [DEBUG] Importing JpegImagePlugin
+2025-11-18 12:18:00,333 [DEBUG] Importing Jpeg2KImagePlugin
+2025-11-18 12:18:00,333 [DEBUG] Importing McIdasImagePlugin
+2025-11-18 12:18:00,333 [DEBUG] Importing MicImagePlugin
+2025-11-18 12:18:00,334 [DEBUG] Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-11-18 12:18:00,334 [DEBUG] Importing MpegImagePlugin
+2025-11-18 12:18:00,345 [DEBUG] Importing MpoImagePlugin
+2025-11-18 12:18:00,372 [DEBUG] Importing MspImagePlugin
+2025-11-18 12:18:00,373 [DEBUG] Importing PalmImagePlugin
+2025-11-18 12:18:00,376 [DEBUG] Importing PcdImagePlugin
+2025-11-18 12:18:00,377 [DEBUG] Importing PcxImagePlugin
+2025-11-18 12:18:00,377 [DEBUG] Importing PdfImagePlugin
+2025-11-18 12:18:00,392 [DEBUG] Importing PixarImagePlugin
+2025-11-18 12:18:00,394 [DEBUG] Importing PngImagePlugin
+2025-11-18 12:18:00,394 [DEBUG] Importing PpmImagePlugin
+2025-11-18 12:18:00,394 [DEBUG] Importing PsdImagePlugin
+2025-11-18 12:18:00,396 [DEBUG] Importing QoiImagePlugin
+2025-11-18 12:18:00,398 [DEBUG] Importing SgiImagePlugin
+2025-11-18 12:18:00,400 [DEBUG] Importing SpiderImagePlugin
+2025-11-18 12:18:00,402 [DEBUG] Importing SunImagePlugin
+2025-11-18 12:18:00,403 [DEBUG] Importing TgaImagePlugin
+2025-11-18 12:18:00,405 [DEBUG] Importing TiffImagePlugin
+2025-11-18 12:18:00,405 [DEBUG] Importing WebPImagePlugin
+2025-11-18 12:18:00,411 [DEBUG] Importing WmfImagePlugin
+2025-11-18 12:18:00,412 [DEBUG] Importing XbmImagePlugin
+2025-11-18 12:18:00,415 [DEBUG] Importing XpmImagePlugin
+2025-11-18 12:18:00,416 [DEBUG] Importing XVThumbImagePlugin
+2025-11-18 12:18:05,545 [INFO] HRID zatwierdzony: TEST
+2025-11-18 12:18:10,298 [INFO] Walidacja OK: SSW-3503UK 239C608046
+2025-11-18 12:18:10,301 [INFO] === START TESTU === Serial: SSW-3503UK 239C608046, HRID: TEST
+2025-11-18 12:18:49,877 [INFO] Test zakończony: PASS, czas: 37.17s
+2025-11-18 12:18:49,879 [INFO] Wynik zapisany do: raport_testow_1.csv
+2025-11-18 12:18:49,879 [INFO] Wynik zapisu: True
+2025-11-18 12:19:03,824 [INFO] Język zmieniony na: ua
+2025-11-18 12:19:04,422 [INFO] Język zmieniony na: en
+2025-11-18 12:19:05,436 [INFO] Język zmieniony na: pl
+2025-11-18 12:29:12,776 [INFO] === APP CLOSED === Stats: {'pass': 1, 'fail': 0, 'total': 1}
