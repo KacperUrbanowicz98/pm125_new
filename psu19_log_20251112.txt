@@ -1,0 +1,27 @@
+2025-11-12 09:59:13,675 [INFO] Usunięto stary log: psu19_log_20251031.txt
+2025-11-12 09:59:13,675 [INFO] Usunięto stary log: psu19_log_20251104.txt
+2025-11-12 09:59:13,676 [INFO] Usunięto stary log: psu19_log_20251105.txt
+2025-11-12 09:59:13,676 [INFO] Wyczyszczono 3 starych logów
+2025-11-12 09:59:13,866 [INFO] === APLIKACJA URUCHOMIONA ===
+2025-11-12 09:59:13,868 [INFO] Konfiguracja załadowana
+2025-11-12 09:59:15,167 [ERROR] Błąd połączenia: Nie można połączyć z PM125.
+Sprawdź czy:
+1. Urządzenie jest podłączone przez Monitoring Port (USB Micro B)
+2. Sterowniki są zainstalowane
+3. Zasilacz jest podłączony do portu SINK
+Traceback (most recent call last):
+  File "C:\Users\kacper.urbanowicz\PycharmProjects\pm125_new\gui.py", line 346, in __init__
+    self.hardware = PM125Interface(console_path=self.config.console_path,
+                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                   device_serial=self.config.device_serial)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kacper.urbanowicz\PycharmProjects\pm125_new\hardware_interface.py", line 34, in __init__
+    raise ConnectionError(
+    ...<5 lines>...
+    )
+ConnectionError: Nie można połączyć z PM125.
+Sprawdź czy:
+1. Urządzenie jest podłączone przez Monitoring Port (USB Micro B)
+2. Sterowniki są zainstalowane
+3. Zasilacz jest podłączony do portu SINK
+2025-11-12 09:59:16,741 [INFO] === APP CLOSED === Stats: {'pass': 0, 'fail': 0, 'total': 0}

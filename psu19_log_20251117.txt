@@ -1,0 +1,143 @@
+2025-11-17 12:01:17,492 [INFO] === APLIKACJA URUCHOMIONA ===
+2025-11-17 12:01:17,495 [INFO] Konfiguracja załadowana
+2025-11-17 12:01:19,057 [INFO] Połączono z PM125
+2025-11-17 12:01:19,134 [DEBUG] STREAM b'IHDR' 16 13
+2025-11-17 12:01:19,135 [DEBUG] STREAM b'pHYs' 41 9
+2025-11-17 12:01:19,135 [DEBUG] STREAM b'tEXt' 62 25
+2025-11-17 12:01:19,135 [DEBUG] STREAM b'IDAT' 99 8192
+2025-11-17 12:01:19,140 [DEBUG] STREAM b'IHDR' 16 13
+2025-11-17 12:01:19,140 [DEBUG] STREAM b'pHYs' 41 9
+2025-11-17 12:01:19,140 [DEBUG] STREAM b'tEXt' 62 25
+2025-11-17 12:01:19,140 [DEBUG] STREAM b'IDAT' 99 8192
+2025-11-17 12:01:19,146 [DEBUG] STREAM b'IHDR' 16 13
+2025-11-17 12:01:19,146 [DEBUG] STREAM b'pHYs' 41 9
+2025-11-17 12:01:19,146 [DEBUG] STREAM b'tEXt' 62 25
+2025-11-17 12:01:19,146 [DEBUG] STREAM b'IDAT' 99 8192
+2025-11-17 12:01:20,207 [DEBUG] Importing AvifImagePlugin
+2025-11-17 12:01:20,217 [DEBUG] Importing BlpImagePlugin
+2025-11-17 12:01:20,222 [DEBUG] Importing BmpImagePlugin
+2025-11-17 12:01:20,222 [DEBUG] Importing BufrStubImagePlugin
+2025-11-17 12:01:20,227 [DEBUG] Importing CurImagePlugin
+2025-11-17 12:01:20,231 [DEBUG] Importing DcxImagePlugin
+2025-11-17 12:01:20,238 [DEBUG] Importing DdsImagePlugin
+2025-11-17 12:01:20,249 [DEBUG] Importing EpsImagePlugin
+2025-11-17 12:01:20,253 [DEBUG] Importing FitsImagePlugin
+2025-11-17 12:01:20,260 [DEBUG] Importing FliImagePlugin
+2025-11-17 12:01:20,263 [DEBUG] Importing FpxImagePlugin
+2025-11-17 12:01:20,267 [DEBUG] Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-11-17 12:01:20,267 [DEBUG] Importing FtexImagePlugin
+2025-11-17 12:01:20,271 [DEBUG] Importing GbrImagePlugin
+2025-11-17 12:01:20,275 [DEBUG] Importing GifImagePlugin
+2025-11-17 12:01:20,275 [DEBUG] Importing GribStubImagePlugin
+2025-11-17 12:01:20,279 [DEBUG] Importing Hdf5StubImagePlugin
+2025-11-17 12:01:20,281 [DEBUG] Importing IcnsImagePlugin
+2025-11-17 12:01:20,290 [DEBUG] Importing IcoImagePlugin
+2025-11-17 12:01:20,293 [DEBUG] Importing ImImagePlugin
+2025-11-17 12:01:20,295 [DEBUG] Importing ImtImagePlugin
+2025-11-17 12:01:20,297 [DEBUG] Importing IptcImagePlugin
+2025-11-17 12:01:20,298 [DEBUG] Importing JpegImagePlugin
+2025-11-17 12:01:20,298 [DEBUG] Importing Jpeg2KImagePlugin
+2025-11-17 12:01:20,298 [DEBUG] Importing McIdasImagePlugin
+2025-11-17 12:01:20,300 [DEBUG] Importing MicImagePlugin
+2025-11-17 12:01:20,301 [DEBUG] Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-11-17 12:01:20,301 [DEBUG] Importing MpegImagePlugin
+2025-11-17 12:01:20,312 [DEBUG] Importing MpoImagePlugin
+2025-11-17 12:01:20,332 [DEBUG] Importing MspImagePlugin
+2025-11-17 12:01:20,334 [DEBUG] Importing PalmImagePlugin
+2025-11-17 12:01:20,337 [DEBUG] Importing PcdImagePlugin
+2025-11-17 12:01:20,339 [DEBUG] Importing PcxImagePlugin
+2025-11-17 12:01:20,339 [DEBUG] Importing PdfImagePlugin
+2025-11-17 12:01:20,345 [DEBUG] Importing PixarImagePlugin
+2025-11-17 12:01:20,348 [DEBUG] Importing PngImagePlugin
+2025-11-17 12:01:20,348 [DEBUG] Importing PpmImagePlugin
+2025-11-17 12:01:20,348 [DEBUG] Importing PsdImagePlugin
+2025-11-17 12:01:20,350 [DEBUG] Importing QoiImagePlugin
+2025-11-17 12:01:20,351 [DEBUG] Importing SgiImagePlugin
+2025-11-17 12:01:20,353 [DEBUG] Importing SpiderImagePlugin
+2025-11-17 12:01:20,355 [DEBUG] Importing SunImagePlugin
+2025-11-17 12:01:20,356 [DEBUG] Importing TgaImagePlugin
+2025-11-17 12:01:20,358 [DEBUG] Importing TiffImagePlugin
+2025-11-17 12:01:20,358 [DEBUG] Importing WebPImagePlugin
+2025-11-17 12:01:20,363 [DEBUG] Importing WmfImagePlugin
+2025-11-17 12:01:20,366 [DEBUG] Importing XbmImagePlugin
+2025-11-17 12:01:20,367 [DEBUG] Importing XpmImagePlugin
+2025-11-17 12:01:20,369 [DEBUG] Importing XVThumbImagePlugin
+2025-11-17 12:01:27,720 [INFO] HRID zatwierdzony: 12101333
+2025-11-17 12:01:41,129 [INFO] Walidacja OK: SSW-3503UK 239C608046
+2025-11-17 12:01:41,134 [INFO] === START TESTU === Serial: SSW-3503UK 239C608046, HRID: 12101333
+2025-11-17 12:02:21,846 [INFO] Test zakończony: PASS, czas: 38.62s
+2025-11-17 12:02:21,847 [INFO] Wynik zapisany do: raport_testow_1.csv
+2025-11-17 12:02:21,848 [INFO] Wynik zapisu: True
+2025-11-17 12:02:51,439 [INFO] === ENGINEERING MODE ===
+2025-11-17 12:05:29,322 [INFO] === APP CLOSED === Stats: {'pass': 1, 'fail': 0, 'total': 1}
+2025-11-17 12:07:39,066 [INFO] === APLIKACJA URUCHOMIONA ===
+2025-11-17 12:07:39,066 [INFO] Konfiguracja załadowana
+2025-11-17 12:07:40,561 [INFO] Połączono z PM125
+2025-11-17 12:07:40,583 [DEBUG] STREAM b'IHDR' 16 13
+2025-11-17 12:07:40,583 [DEBUG] STREAM b'pHYs' 41 9
+2025-11-17 12:07:40,583 [DEBUG] STREAM b'tEXt' 62 25
+2025-11-17 12:07:40,583 [DEBUG] STREAM b'IDAT' 99 8192
+2025-11-17 12:07:40,586 [DEBUG] STREAM b'IHDR' 16 13
+2025-11-17 12:07:40,587 [DEBUG] STREAM b'pHYs' 41 9
+2025-11-17 12:07:40,587 [DEBUG] STREAM b'tEXt' 62 25
+2025-11-17 12:07:40,587 [DEBUG] STREAM b'IDAT' 99 8192
+2025-11-17 12:07:40,591 [DEBUG] STREAM b'IHDR' 16 13
+2025-11-17 12:07:40,591 [DEBUG] STREAM b'pHYs' 41 9
+2025-11-17 12:07:40,591 [DEBUG] STREAM b'tEXt' 62 25
+2025-11-17 12:07:40,591 [DEBUG] STREAM b'IDAT' 99 8192
+2025-11-17 12:07:41,356 [DEBUG] Importing AvifImagePlugin
+2025-11-17 12:07:41,358 [DEBUG] Importing BlpImagePlugin
+2025-11-17 12:07:41,359 [DEBUG] Importing BmpImagePlugin
+2025-11-17 12:07:41,359 [DEBUG] Importing BufrStubImagePlugin
+2025-11-17 12:07:41,359 [DEBUG] Importing CurImagePlugin
+2025-11-17 12:07:41,359 [DEBUG] Importing DcxImagePlugin
+2025-11-17 12:07:41,360 [DEBUG] Importing DdsImagePlugin
+2025-11-17 12:07:41,362 [DEBUG] Importing EpsImagePlugin
+2025-11-17 12:07:41,363 [DEBUG] Importing FitsImagePlugin
+2025-11-17 12:07:41,364 [DEBUG] Importing FliImagePlugin
+2025-11-17 12:07:41,364 [DEBUG] Importing FpxImagePlugin
+2025-11-17 12:07:41,365 [DEBUG] Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-11-17 12:07:41,365 [DEBUG] Importing FtexImagePlugin
+2025-11-17 12:07:41,365 [DEBUG] Importing GbrImagePlugin
+2025-11-17 12:07:41,366 [DEBUG] Importing GifImagePlugin
+2025-11-17 12:07:41,366 [DEBUG] Importing GribStubImagePlugin
+2025-11-17 12:07:41,366 [DEBUG] Importing Hdf5StubImagePlugin
+2025-11-17 12:07:41,366 [DEBUG] Importing IcnsImagePlugin
+2025-11-17 12:07:41,367 [DEBUG] Importing IcoImagePlugin
+2025-11-17 12:07:41,368 [DEBUG] Importing ImImagePlugin
+2025-11-17 12:07:41,369 [DEBUG] Importing ImtImagePlugin
+2025-11-17 12:07:41,369 [DEBUG] Importing IptcImagePlugin
+2025-11-17 12:07:41,369 [DEBUG] Importing JpegImagePlugin
+2025-11-17 12:07:41,369 [DEBUG] Importing Jpeg2KImagePlugin
+2025-11-17 12:07:41,369 [DEBUG] Importing McIdasImagePlugin
+2025-11-17 12:07:41,370 [DEBUG] Importing MicImagePlugin
+2025-11-17 12:07:41,370 [DEBUG] Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-11-17 12:07:41,370 [DEBUG] Importing MpegImagePlugin
+2025-11-17 12:07:41,372 [DEBUG] Importing MpoImagePlugin
+2025-11-17 12:07:41,377 [DEBUG] Importing MspImagePlugin
+2025-11-17 12:07:41,377 [DEBUG] Importing PalmImagePlugin
+2025-11-17 12:07:41,378 [DEBUG] Importing PcdImagePlugin
+2025-11-17 12:07:41,378 [DEBUG] Importing PcxImagePlugin
+2025-11-17 12:07:41,378 [DEBUG] Importing PdfImagePlugin
+2025-11-17 12:07:41,381 [DEBUG] Importing PixarImagePlugin
+2025-11-17 12:07:41,381 [DEBUG] Importing PngImagePlugin
+2025-11-17 12:07:41,381 [DEBUG] Importing PpmImagePlugin
+2025-11-17 12:07:41,381 [DEBUG] Importing PsdImagePlugin
+2025-11-17 12:07:41,382 [DEBUG] Importing QoiImagePlugin
+2025-11-17 12:07:41,382 [DEBUG] Importing SgiImagePlugin
+2025-11-17 12:07:41,382 [DEBUG] Importing SpiderImagePlugin
+2025-11-17 12:07:41,383 [DEBUG] Importing SunImagePlugin
+2025-11-17 12:07:41,383 [DEBUG] Importing TgaImagePlugin
+2025-11-17 12:07:41,383 [DEBUG] Importing TiffImagePlugin
+2025-11-17 12:07:41,383 [DEBUG] Importing WebPImagePlugin
+2025-11-17 12:07:41,384 [DEBUG] Importing WmfImagePlugin
+2025-11-17 12:07:41,385 [DEBUG] Importing XbmImagePlugin
+2025-11-17 12:07:41,385 [DEBUG] Importing XpmImagePlugin
+2025-11-17 12:07:41,386 [DEBUG] Importing XVThumbImagePlugin
+2025-11-17 12:07:45,423 [INFO] HRID zatwierdzony: 12101333
+2025-11-17 12:07:52,892 [INFO] Walidacja OK: SSW-3503UK 239C608046
+2025-11-17 12:07:52,895 [INFO] === START TESTU === Serial: SSW-3503UK 239C608046, HRID: 12101333
+2025-11-17 12:08:32,489 [INFO] Test zakończony: PASS, czas: 37.42s
+2025-11-17 12:08:32,492 [INFO] Wynik zapisany do: raport_testow_1.csv
+2025-11-17 12:08:32,492 [INFO] Wynik zapisu: True
+2025-11-17 12:45:07,689 [INFO] === APP CLOSED === Stats: {'pass': 1, 'fail': 0, 'total': 1}
